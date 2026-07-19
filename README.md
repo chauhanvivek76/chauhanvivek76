@@ -42,7 +42,7 @@
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
 | 🍽️ [**Food Tracker**](https://github.com/chauhanvivek76) | A web application designed to track food consumption, manage diet logs, and monitor nutritional intake. | React.js, JavaScript, HTML/CSS |
-| 🌾 [**AgriConnect**](https://github.com/chauhanvivek76) | A digital marketplace platform connecting farmers, agricultural suppliers, and buyers directly to streamline trading. | Java, SQL, Web Dev |
+| 📝 [**Resume Analyzer**](https://github.com/chauhanvivek76/resume-analyzer) | An AI-powered platform integrating Gemini AI to analyze resumes, calculate ATS scores, and provide feedback on job description matches. | Next.js, Node.js, Gemini AI |
 | 🛡️ [**AI-Powered Sanitization**](https://github.com/chauhanvivek76) | An automated computer vision system utilizing AI to monitor and verify sanitization processes in real-time. | Python, AI/ML, OpenCV |
 
 ---
