@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Example 1",
+    "prices": [100, 80],
+    "discounts": [50, 60],
+    "expires": [1, 2],
+    "expected": 110
+  },
+  {
+    "name": "Example 2",
+    "prices": [10, 20, 30],
+    "discounts": [15, 25],
+    "expires": [1, 1],
+    "expected": 25
+  },
+  {
+    "name": "Single Item, Single Coupon",
+    "prices": [50],
+    "discounts": [100],
+    "expires": [1],
+    "expected": 50
+  },
+  {
+    "name": "Single Item, Coupon Expires Early",
+    "prices": [50],
+    "discounts": [100],
+    "expires": [2],
+    "expected": 50
+  },
+  {
+    "name": "Multiple Items, All Coupons Expire Immediately",
+    "prices": [10, 20, 30, 40],
+    "discounts": [15, 25, 35],
+    "expires": [1, 1, 1],
+    "expected": 35
+  },
+  {
+    "name": "Large Values (Overflow Test)",
+    "prices": [1000000000, 1000000000],
+    "discounts": [1000000000, 1000000000],
+    "expires": [1, 2],
+    "expected": 2000000000
+  },
+  {
+    "name": "Coupon Limit Exceeded (More Coupons than Items)",
+    "prices": [10, 20],
+    "discounts": [5, 10, 15, 20],
+    "expires": [1, 1, 2, 2],
+    "expected": 30
+  },
+  {
+    "name": "Coupons Unavailable (Deadlines are 0)",
+    "prices": [10, 20, 30],
+    "discounts": [5, 10],
+    "expires": [0, 0],
+    "expected": 0
+  }
+]
