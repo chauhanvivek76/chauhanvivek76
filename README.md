@@ -64,18 +64,38 @@
 ## 📊 GitHub & Coding Stats
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chauhanvivek76&theme=tokyonight" height="150" />
-  <img src="https://streak-stats.demolab.com?user=chauhanvivek76&theme=tokyonight" height="150" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chauhanvivek76&theme=tokyonight">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chauhanvivek76&theme=default">
+    <img alt="Profile Details" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chauhanvivek76&theme=tokyonight" height="150" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=chauhanvivek76&theme=tokyonight">
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=chauhanvivek76&theme=default">
+    <img alt="Streak Stats" src="https://streak-stats.demolab.com?user=chauhanvivek76&theme=tokyonight" height="150" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=chauhanvivek76&theme=tokyonight" height="150" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=chauhanvivek76&theme=tokyonight" height="150" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=chauhanvivek76&theme=tokyonight">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=chauhanvivek76&theme=default">
+    <img alt="Repos Per Language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=chauhanvivek76&theme=tokyonight" height="150" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=chauhanvivek76&theme=tokyonight">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=chauhanvivek76&theme=default">
+    <img alt="Most Commit Language" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=chauhanvivek76&theme=tokyonight" height="150" />
+  </picture>
 </p>
 
 <p align="center">
   <a href="https://leetcode.com/YOUR_LEETCODE_USERNAME" target="_blank">
-    <img src="https://leetcode-stats.vercel.app/api?username=YOUR_LEETCODE_USERNAME&theme=Dark" alt="LeetCode Stats" height="150" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://leetcode-stats.vercel.app/api?username=YOUR_LEETCODE_USERNAME&theme=Dark">
+      <source media="(prefers-color-scheme: light)" srcset="https://leetcode-stats.vercel.app/api?username=YOUR_LEETCODE_USERNAME&theme=Light">
+      <img alt="LeetCode Stats" src="https://leetcode-stats.vercel.app/api?username=YOUR_LEETCODE_USERNAME&theme=Dark" height="150" />
+    </picture>
   </a>
 </p>
 
